@@ -33,6 +33,7 @@ class ContactListVC: UIViewController {
             make.edges.equalToSuperview()
         }
         // регистрация таблицы
+        // таблица
         
         
         tableView.register(ContactCell.self, forCellReuseIdentifier: ContactCell.reuseId)
