@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FE9EEB7205012D5D62E65B2 /* Pods_Dictionary_contakts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13B198533BFFC7D34B97AB4B /* Pods_Dictionary_contakts.framework */; };
+		FA64EB0B278A4F1200FDC4AD /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64EB0A278A4F1200FDC4AD /* Contact.swift */; };
+		FA64EB0D278B87FE00FDC4AD /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64EB0C278B87FE00FDC4AD /* ContactCell.swift */; };
+		FA64EB0F278BADFE00FDC4AD /* ContactSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64EB0E278BADFE00FDC4AD /* ContactSectionHeader.swift */; };
+		FA88805C278A1C43003D08F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA88805B278A1C43003D08F5 /* AppDelegate.swift */; };
+		FA88805E278A1C43003D08F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA88805D278A1C43003D08F5 /* SceneDelegate.swift */; };
+		FA888060278A1C43003D08F5 /* ContactListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA88805F278A1C43003D08F5 /* ContactListVC.swift */; };
+		FA888065278A1C4C003D08F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA888064278A1C4C003D08F5 /* Assets.xcassets */; };
+		FA888068278A1C4C003D08F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA888066278A1C4C003D08F5 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13B198533BFFC7D34B97AB4B /* Pods_Dictionary_contakts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dictionary_contakts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		416F932C7327940E0E7F1979 /* Pods-Dictionary contakts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dictionary contakts.release.xcconfig"; path = "Target Support Files/Pods-Dictionary contakts/Pods-Dictionary contakts.release.xcconfig"; sourceTree = "<group>"; };
+		AD5FCE8062639D4F3901A430 /* Pods-Dictionary contakts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dictionary contakts.debug.xcconfig"; path = "Target Support Files/Pods-Dictionary contakts/Pods-Dictionary contakts.debug.xcconfig"; sourceTree = "<group>"; };
+		FA64EB0A278A4F1200FDC4AD /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		FA64EB0C278B87FE00FDC4AD /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		FA64EB0E278BADFE00FDC4AD /* ContactSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactSectionHeader.swift; sourceTree = "<group>"; };
+		FA888058278A1C43003D08F5 /* Dictionary contakts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dictionary contakts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA88805B278A1C43003D08F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA88805D278A1C43003D08F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA88805F278A1C43003D08F5 /* ContactListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListVC.swift; sourceTree = "<group>"; };
+		FA888064278A1C4C003D08F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA888067278A1C4C003D08F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA888069278A1C4C003D08F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA888055278A1C43003D08F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE9EEB7205012D5D62E65B2 /* Pods_Dictionary_contakts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0195793475B76F472B35E05A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD5FCE8062639D4F3901A430 /* Pods-Dictionary contakts.debug.xcconfig */,
+				416F932C7327940E0E7F1979 /* Pods-Dictionary contakts.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BDBB2B96AFB86FFF679EB7FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13B198533BFFC7D34B97AB4B /* Pods_Dictionary_contakts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA88804F278A1C43003D08F5 = {
+			isa = PBXGroup;
+			children = (
+				FA88805A278A1C43003D08F5 /* Dictionary contakts */,
+				FA888059278A1C43003D08F5 /* Products */,
+				0195793475B76F472B35E05A /* Pods */,
+				BDBB2B96AFB86FFF679EB7FC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA888059278A1C43003D08F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA888058278A1C43003D08F5 /* Dictionary contakts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA88805A278A1C43003D08F5 /* Dictionary contakts */ = {
+			isa = PBXGroup;
+			children = (
+				FA88805B278A1C43003D08F5 /* AppDelegate.swift */,
+				FA88805D278A1C43003D08F5 /* SceneDelegate.swift */,
+				FA88805F278A1C43003D08F5 /* ContactListVC.swift */,
+				FA64EB0C278B87FE00FDC4AD /* ContactCell.swift */,
+				FA64EB0E278BADFE00FDC4AD /* ContactSectionHeader.swift */,
+				FA64EB0A278A4F1200FDC4AD /* Contact.swift */,
+				FA888064278A1C4C003D08F5 /* Assets.xcassets */,
+				FA888066278A1C4C003D08F5 /* LaunchScreen.storyboard */,
+				FA888069278A1C4C003D08F5 /* Info.plist */,
+			);
+			path = "Dictionary contakts";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA888057278A1C43003D08F5 /* Dictionary contakts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA88806C278A1C4C003D08F5 /* Build configuration list for PBXNativeTarget "Dictionary contakts" */;
+			buildPhases = (
+				FF4C8E30E3C1AC9363A636AD /* [CP] Check Pods Manifest.lock */,
+				FA888054278A1C43003D08F5 /* Sources */,
+				FA888055278A1C43003D08F5 /* Frameworks */,
+				FA888056278A1C43003D08F5 /* Resources */,
+				563CC127D8411F02ED7C4091 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dictionary contakts";
+			productName = "Dictionary contakts";
+			productReference = FA888058278A1C43003D08F5 /* Dictionary contakts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA888050278A1C43003D08F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					FA888057278A1C43003D08F5 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = FA888053278A1C43003D08F5 /* Build configuration list for PBXProject "Dictionary contakts" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA88804F278A1C43003D08F5;
+			productRefGroup = FA888059278A1C43003D08F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA888057278A1C43003D08F5 /* Dictionary contakts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA888056278A1C43003D08F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA888068278A1C4C003D08F5 /* LaunchScreen.storyboard in Resources */,
+				FA888065278A1C4C003D08F5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		563CC127D8411F02ED7C4091 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dictionary contakts/Pods-Dictionary contakts-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dictionary contakts/Pods-Dictionary contakts-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dictionary contakts/Pods-Dictionary contakts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF4C8E30E3C1AC9363A636AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dictionary contakts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA888054278A1C43003D08F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA64EB0D278B87FE00FDC4AD /* ContactCell.swift in Sources */,
+				FA64EB0F278BADFE00FDC4AD /* ContactSectionHeader.swift in Sources */,
+				FA64EB0B278A4F1200FDC4AD /* Contact.swift in Sources */,
+				FA888060278A1C43003D08F5 /* ContactListVC.swift in Sources */,
+				FA88805C278A1C43003D08F5 /* AppDelegate.swift in Sources */,
+				FA88805E278A1C43003D08F5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA888066278A1C4C003D08F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA888067278A1C4C003D08F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA88806A278A1C4C003D08F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA88806B278A1C4C003D08F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA88806D278A1C4C003D08F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD5FCE8062639D4F3901A430 /* Pods-Dictionary contakts.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 766QK7HMSP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dictionary contakts/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kleimor.Dictionary-contakts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA88806E278A1C4C003D08F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 416F932C7327940E0E7F1979 /* Pods-Dictionary contakts.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 766QK7HMSP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dictionary contakts/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Kleimor.Dictionary-contakts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA888053278A1C43003D08F5 /* Build configuration list for PBXProject "Dictionary contakts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA88806A278A1C4C003D08F5 /* Debug */,
+				FA88806B278A1C4C003D08F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA88806C278A1C4C003D08F5 /* Build configuration list for PBXNativeTarget "Dictionary contakts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA88806D278A1C4C003D08F5 /* Debug */,
+				FA88806E278A1C4C003D08F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA888050278A1C43003D08F5 /* Project object */;
+}

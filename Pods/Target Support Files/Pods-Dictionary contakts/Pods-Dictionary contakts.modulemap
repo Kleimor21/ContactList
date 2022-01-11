@@ -1,0 +1,6 @@
+framework module Pods_Dictionary_contakts {
+  umbrella header "Pods-Dictionary contakts-umbrella.h"
+
+  export *
+  module * { export * }
+}
